@@ -17,7 +17,7 @@ public class Main {
 
             }
         }
-            System.out.println(sum);
+            System.out.printf("%.2f",sum);
 
       }
     }
