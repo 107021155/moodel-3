@@ -10,7 +10,7 @@ public class Main {
             data[i] = scn.nextInt();
         }
         for (int i=0;i<n;i++){
-            for (int j=0;j<n;j++){
+            for (int j=i+1;j<n;j++){
                 if (data[i]<data[j]){
                     int val = data[i];
                     data[i] = data[j];
