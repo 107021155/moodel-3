@@ -6,7 +6,7 @@ public class Main {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
        int data[][]=new int[n][n];
-       int x=0,i=1,j=0,k=i,p=j;
+       int x=0,i=1,j=1,k=i,p=j;
        data[0][0]=1;
        while (x<=n*n){
            data[i][j]=x;
@@ -30,7 +30,6 @@ public class Main {
                    k++;
                }
            }
-           data[i][j]=x;
            x++;
        }
        for (i=0;i<n;i++){
